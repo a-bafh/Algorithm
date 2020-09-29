@@ -8,7 +8,7 @@ void setup() {
   int median = numbers.length / 2 ;
   println("Middle Number of NUMBERS", median);
   if ( numbers.length%2 == 0 ) { //even number
-    float medianAverage = ( (numbers[numbers.length/2] + numbers[numbers.length/2-1]) /2 );
+    float medianAverage = ( (numbers[numbers.length/2] + numbers[numbers.length/2-1]) /2.0 );
     println("Median is", medianAverage);
   } else { //Odd Number
     println("Median is", numbers[median]);
